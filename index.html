@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="editor-container">
+        <div id="toolbar">
+            <button id="add-text">Add Text</button>
+            <button id="add-shape">Add Shape</button>
+            <input type="file" id="upload-image" accept="image/*">
+            <button id="download">Download</button>
+        </div>
+        <div id="canvas-container">
+            <canvas id="canvas" width="800" height="600"></canvas>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
